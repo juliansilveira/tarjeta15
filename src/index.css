@@ -1,0 +1,24 @@
+@import "tailwindcss";
+body{
+  /* background-color: #f8efe5; */
+  background-image: url('../public/52741.png');
+  height: 100vh;
+  background-position: center;
+}
+
+@layer base {
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-vibes {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-edu-cursive {
+    font-family: 'Edu NSW ACT Cursive', cursive;
+  }
+
+  .font-edu-hand {
+    font-family: 'Edu NSW ACT Hand Pre', cursive;
+  }
+}
