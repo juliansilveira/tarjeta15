@@ -21,4 +21,8 @@ body{
   .font-edu-hand {
     font-family: 'Edu NSW ACT Hand Pre', cursive;
   }
+
+  .font-ibm{
+      font-family: "IBM Plex Serif", serif;
+  }
 }

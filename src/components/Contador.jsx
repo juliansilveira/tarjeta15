@@ -33,7 +33,7 @@ const Contador = () => {
   }, [])
 
   return (
-    <div className="flex flex-col items-center mt-6 px-4 font-[Poppins]">
+    <div className="flex flex-col items-center mt-6 px-4 font-edu-hand">
       <p className="font-bold text-lg mb-4 text-center bg-blue-900 text-white p-2 rounded-xl">⏳ Tiempo Restante</p>
       <div className="grid grid-cols-2 sm:flex sm:flex-row gap-3 w-full max-w-md">
         <div className="flex flex-col items-center p-3 bg-blue-900 text-white rounded-xl shadow-lg">

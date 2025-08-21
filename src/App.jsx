@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <Header />
+      {/* <Header /> */}
 
       {/* Contenido principal (ocupa espacio disponible) */}
 <main className="flex-grow">

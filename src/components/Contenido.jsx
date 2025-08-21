@@ -6,7 +6,7 @@ export default function Contenido() {
       <h1 className="font-edu-cursive text-2xl">Te invito a Festejar mis 15 Años</h1>
       <h1 className="mt-6 text-6xl font-extrabold font-vibes">Mia</h1>
     </div>
-    <div className="bg-blue-300/80 flex justify-around items-center p-2 rounded-xl m-12">
+    <div className="bg-blue-300/80 flex justify-around items-center p-2 rounded-xl m-12 font-ibm">
     <h3  className="">Viernes <p className="text-3xl font-bold mx-2 my-2">16</p> de Enero</h3>
     <div className="border-l-4 font-bold">
     <p className="ml-2">San Martín 370</p>

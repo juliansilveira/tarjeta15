@@ -1,6 +1,6 @@
 export default function Asistencia() {
   return (
-    <div className="flex justify-center items-center my-5">
+    <div className="flex justify-center items-center my-5 font-ibm">
       <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-[2px] rounded-2xl shadow-lg">
         <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 w-80 text-center">
           <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3">
