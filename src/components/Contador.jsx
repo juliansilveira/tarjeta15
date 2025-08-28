@@ -34,21 +34,21 @@ const Contador = () => {
 
   return (
     <div className="flex flex-col items-center mt-6 px-4 font-edu-hand">
-      <p className="font-bold text-lg mb-4 text-center bg-blue-900 text-white p-2 rounded-xl">⏳ Tiempo Restante</p>
+      <p className="font-bold text-lg mb-4 text-center bg-[#345798]/25 text-white p-3 rounded-xl">⏳ Tiempo Restante</p>
       <div className="grid grid-cols-2 sm:flex sm:flex-row gap-3 w-full max-w-md">
-        <div className="flex flex-col items-center p-3 bg-blue-900 text-white rounded-xl shadow-lg">
+        <div className="flex flex-col items-center p-3 bg-[#0f2343]/80 text-white rounded-xl shadow-lg">
           <p className="text-2xl font-bold">{tiempo.dias}</p>
           <span className="text-sm">Días</span>
         </div>
-        <div className="flex flex-col items-center p-3 bg-blue-900 text-white rounded-xl shadow-lg">
+        <div className="flex flex-col items-center p-3 bg-[#0f2343]/80 text-white rounded-xl shadow-lg">
           <p className="text-2xl font-bold">{tiempo.horas}</p>
           <span className="text-sm">Horas</span>
         </div>
-        <div className="flex flex-col items-center p-3 bg-blue-900 text-white rounded-xl shadow-lg">
+        <div className="flex flex-col items-center p-3 bg-[#0f2343]/80 text-white rounded-xl shadow-lg">
           <p className="text-2xl font-bold">{tiempo.minutos}</p>
           <span className="text-sm">Minutos</span>
         </div>
-        <div className="flex flex-col items-center p-3 bg-blue-900 text-white rounded-xl shadow-lg">
+        <div className="flex flex-col items-center p-3 bg-[#0f2343]/80 text-white rounded-xl shadow-lg">
           <p className="text-2xl font-bold">{tiempo.segundos}</p>
           <span className="text-sm">Segundos</span>
         </div>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 body{
   /* background-color: #f8efe5; */
-  background-image: url('../public/52741.png');
+  background-image: url('../public/disco2.jpg');
   height: 100vh;
   background-position: center;
 }
@@ -26,3 +26,4 @@ body{
       font-family: "IBM Plex Serif", serif;
   }
 }
+
