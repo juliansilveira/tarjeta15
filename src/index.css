@@ -25,5 +25,25 @@ body{
   .font-ibm{
       font-family: "IBM Plex Serif", serif;
   }
+
+.font-plex {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-chicle{
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
 
