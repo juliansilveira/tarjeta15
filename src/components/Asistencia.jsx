@@ -24,9 +24,9 @@ export default function Asistencia() {
             className="relative inline-block px-8 py-4 rounded-2xl font-bold text-lg md:text-xl text-white shadow-2xl transition-all duration-500 overflow-hidden group"
             style={{
               background:
-                "linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%)",
+                "linear-gradient(135deg, #3b82f6 0%, #0ea5e9 50%, #06b6d4 100%)",
               boxShadow:
-                "0 10px 40px rgba(167, 139, 250, 0.6), 0 0 20px rgba(236, 72, 153, 0.4)",
+                "0 10px 40px rgba(59, 130, 246, 0.6), 0 0 20px rgba(6, 182, 212, 0.4)",
             }}
           >
             {/* Efecto shimmer */}
