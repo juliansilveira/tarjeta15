@@ -18,7 +18,7 @@ export default function Asistencia() {
 
           {/* Botón premium con efecto shimmer */}
           <a
-            href="https://tulink.com/invitacion"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe0UtKq4An4XmOQX2dKjRVFge0DRvjislDiqi7kjhHhF21RFQ/viewform?usp=dialog"
             target="_blank"
             rel="noopener noreferrer"
             className="relative inline-block px-8 py-4 rounded-2xl font-bold text-lg md:text-xl text-white shadow-2xl transition-all duration-500 overflow-hidden group"
