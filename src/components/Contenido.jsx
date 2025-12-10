@@ -50,7 +50,7 @@ export default function Contenido() {
       >
         {/* Fecha */}
         <div className="flex items-center gap-3 font-dancing-script text-xl md:text-2xl">
-          <span className="text-2xl">📅</span>
+          <span className="text-2xl">🍋</span>
           <h3 className="flex items-center gap-2">
             Viernes
             <p className="text-5xl md:text-6xl font-bold mx-2 bg-gradient-to-br from-yellow-200 to-pink-300 bg-clip-text text-transparent drop-shadow-lg">
