@@ -35,7 +35,7 @@ export default function Regalo() {
                 Alias
               </p>
               <p className="text-white font-montserrat font-bold text-2xl md:text-3xl tracking-wide">
-                sanchezmia
+                mia.sanchezs
               </p>
             </div>
 
