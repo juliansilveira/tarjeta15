@@ -73,7 +73,7 @@ export default function Contenido() {
               Horario
             </p>
             <p className="text-2xl md:text-3xl font-light text-blue-50">
-              22:00 a 05:00 hs
+              21:00hs
             </p>
           </div>
         </div>
