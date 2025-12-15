@@ -45,7 +45,7 @@ export default function Regalo() {
                 CVU
               </p>
               <p className="text-white font-mono text-sm md:text-base break-all">
-                0000003100007496181132
+                0000003100076512000209
               </p>
             </div>
 
@@ -55,7 +55,7 @@ export default function Regalo() {
                 CUIT/CUIL
               </p>
               <p className="text-white font-mono text-sm md:text-base">
-                27502481369
+                2750748743-8
               </p>
             </div>
 
