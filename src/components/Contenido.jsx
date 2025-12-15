@@ -13,13 +13,13 @@ export default function Contenido() {
         }}
       >
         {/* Título con efecto de brillo */}
-        <h1 className="font-chicle text-4xl md:text-5xl mb-2 bg-gradient-to-r from-cyan-200 via-blue-200 to-sky-200 bg-clip-text text-transparent drop-shadow-lg">
-          ✨ Te invito a Festejar mis 15 Años ✨
+        <h1 className="font-allura text-5xl md:text-6xl mb-4 bg-gradient-to-r from-cyan-200 via-blue-200 to-sky-200 bg-clip-text text-transparent drop-shadow-lg">
+          Te invito a festejar mis 15 años
         </h1>
 
         {/* Nombre con animación flotante */}
         <h1
-          className="mt-8 text-7xl md:text-8xl font-extrabold font-vibes bg-gradient-to-r from-cyan-300 via-blue-200 to-sky-300 bg-clip-text text-transparent drop-shadow-2xl pt-2"
+          className="mt-8 text-8xl md:text-9xl font-allura bg-gradient-to-r from-cyan-300 via-blue-200 to-sky-300 bg-clip-text text-transparent drop-shadow-2xl pt-2"
           style={{
             animation: "float 3s ease-in-out infinite",
             filter: "drop-shadow(0 0 30px rgba(6, 182, 212, 0.6))",
@@ -28,16 +28,8 @@ export default function Contenido() {
           Mia
         </h1>
 
-        {/* Decoración con estrellas */}
-        <div className="flex gap-3 mt-6 text-3xl opacity-80">
-          <span className="animate-pulse">💫</span>
-          <span className="animate-pulse" style={{ animationDelay: "0.3s" }}>
-            ✨
-          </span>
-          <span className="animate-pulse" style={{ animationDelay: "0.6s" }}>
-            🌟
-          </span>
-        </div>
+        {/* Línea decorativa */}
+        <div className="w-32 h-px bg-gradient-to-r from-transparent via-white/60 to-transparent mt-8"></div>
       </div>
 
       {/* Tarjeta de información con glassmorphism */}
@@ -49,15 +41,17 @@ export default function Contenido() {
         }}
       >
         {/* Fecha */}
-        <div className="flex items-center gap-3 font-dancing-script text-xl md:text-2xl">
-          <span className="text-2xl">🍋</span>
-          <h3 className="flex items-center gap-2">
-            Viernes
-            <p className="text-5xl md:text-6xl font-bold mx-2 bg-gradient-to-br from-cyan-200 to-blue-300 bg-clip-text text-transparent drop-shadow-lg">
+        <div className="flex flex-col items-center gap-2 font-montserrat">
+          <p className="text-base uppercase tracking-widest text-cyan-200">
+            Fecha
+          </p>
+          <div className="flex items-baseline gap-2">
+            <span className="text-xl md:text-2xl">Viernes</span>
+            <p className="text-6xl md:text-7xl font-bold bg-gradient-to-br from-cyan-200 to-blue-300 bg-clip-text text-transparent drop-shadow-lg font-playfair">
               16
             </p>
-            de Enero
-          </h3>
+            <span className="text-xl md:text-2xl">de Enero</span>
+          </div>
         </div>
 
         {/* Divisor decorativo */}
@@ -65,14 +59,18 @@ export default function Contenido() {
         <div className="md:hidden w-full h-px bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
 
         {/* Ubicación y horario */}
-        <div className="flex flex-col justify-center items-center gap-2 font-dancing-script">
-          <div className="flex items-center gap-2 text-xl md:text-2xl">
-            <span className="text-2xl">📍</span>
-            <p className="font-semibold">San Martín 370</p>
+        <div className="flex flex-col justify-center items-center gap-3 font-lato">
+          <div className="flex flex-col items-center">
+            <p className="text-sm uppercase tracking-widest text-cyan-200 mb-1">
+              Ubicación
+            </p>
+            <p className="text-2xl md:text-3xl font-light">San Martín 370</p>
           </div>
-          <div className="flex items-center gap-2 text-xl md:text-2xl">
-            <span className="text-2xl">🕐</span>
-            <p className="font-semibold">22 a 5 hs</p>
+          <div className="flex flex-col items-center">
+            <p className="text-sm uppercase tracking-widest text-cyan-200 mb-1">
+              Horario
+            </p>
+            <p className="text-2xl md:text-3xl font-light">22:00 a 05:00 hs</p>
           </div>
         </div>
       </div>

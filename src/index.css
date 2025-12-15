@@ -88,43 +88,25 @@ body::before {
 }
 
 @layer base {
-  .font-poppins {
-    font-family: 'Poppins', sans-serif;
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
   }
 
-  .font-vibes {
-    font-family: 'Great Vibes', cursive;
-  }
-  .font-edu-cursive {
-    font-family: 'Edu NSW ACT Cursive', cursive;
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
   }
 
-  .font-edu-hand {
-    font-family: 'Edu NSW ACT Hand Pre', cursive;
+  .font-lato {
+    font-family: 'Lato', sans-serif;
   }
 
-  .font-ibm{
-      font-family: "IBM Plex Serif", serif;
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
   }
 
-.font-plex {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 400;
-  font-style: normal;
+  .font-allura {
+    font-family: 'Allura', cursive;
+  }
 }
 
-.font-dancing-script{
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.font-chicle{
-  font-family: "Chicle", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-}
 

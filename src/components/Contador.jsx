@@ -36,12 +36,12 @@ const Contador = () => {
 
   return (
     <div
-      className="flex flex-col items-center mt-8 mb-6 px-4 font-edu-hand"
+      className="flex flex-col items-center mt-8 mb-6 px-4 font-montserrat"
       style={{ animation: "slideUp 1s ease-out 0.6s both" }}
     >
       {/* Título del contador */}
-      <p className="font-bold text-2xl md:text-3xl mb-6 text-center bg-gradient-to-r from-cyan-200 via-blue-200 to-sky-200 text-transparent bg-clip-text p-4 rounded-2xl backdrop-blur-sm border border-white/20 shadow-xl">
-        ⏳ Tiempo Restante ⏳
+      <p className="font-light text-2xl md:text-3xl mb-6 text-center bg-gradient-to-r from-cyan-200 via-blue-200 to-sky-200 text-transparent bg-clip-text p-4 rounded-2xl backdrop-blur-sm border border-white/20 shadow-xl uppercase tracking-widest">
+        Tiempo Restante
       </p>
 
       {/* Grid de tarjetas de tiempo */}
@@ -54,10 +54,10 @@ const Contador = () => {
             animation: "fadeIn 0.8s ease-out 0.8s both",
           }}
         >
-          <p className="text-5xl md:text-6xl font-bold mb-2 drop-shadow-lg">
+          <p className="text-6xl md:text-7xl font-playfair font-bold mb-2 drop-shadow-lg">
             {tiempo.dias}
           </p>
-          <span className="text-sm md:text-base font-semibold uppercase tracking-wider">
+          <span className="text-base md:text-lg font-light uppercase tracking-wider">
             Días
           </span>
         </div>
@@ -70,10 +70,10 @@ const Contador = () => {
             animation: "fadeIn 0.8s ease-out 1s both",
           }}
         >
-          <p className="text-5xl md:text-6xl font-bold mb-2 drop-shadow-lg">
+          <p className="text-6xl md:text-7xl font-playfair font-bold mb-2 drop-shadow-lg">
             {tiempo.horas}
           </p>
-          <span className="text-sm md:text-base font-semibold uppercase tracking-wider">
+          <span className="text-base md:text-lg font-light uppercase tracking-wider">
             Horas
           </span>
         </div>
@@ -86,10 +86,10 @@ const Contador = () => {
             animation: "fadeIn 0.8s ease-out 1.2s both",
           }}
         >
-          <p className="text-5xl md:text-6xl font-bold mb-2 drop-shadow-lg">
+          <p className="text-6xl md:text-7xl font-playfair font-bold mb-2 drop-shadow-lg">
             {tiempo.minutos}
           </p>
-          <span className="text-sm md:text-base font-semibold uppercase tracking-wider">
+          <span className="text-base md:text-lg font-light uppercase tracking-wider">
             Minutos
           </span>
         </div>
@@ -103,10 +103,10 @@ const Contador = () => {
               "fadeIn 0.8s ease-out 1.4s both, pulse 1s ease-in-out infinite",
           }}
         >
-          <p className="text-5xl md:text-6xl font-bold mb-2 drop-shadow-lg">
+          <p className="text-6xl md:text-7xl font-playfair font-bold mb-2 drop-shadow-lg">
             {tiempo.segundos}
           </p>
-          <span className="text-sm md:text-base font-semibold uppercase tracking-wider">
+          <span className="text-base md:text-lg font-light uppercase tracking-wider">
             Segundos
           </span>
         </div>

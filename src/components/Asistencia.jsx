@@ -1,27 +1,27 @@
 export default function Asistencia() {
   return (
     <div
-      className="flex justify-center items-center my-8 font-ibm px-4"
+      className="flex justify-center items-center my-8 font-lato px-4"
       style={{ animation: "slideUp 1s ease-out 1s both" }}
     >
-      <div className="bg-gradient-to-br from-purple-600/30 via-pink-500/30 to-indigo-600/30 backdrop-blur-xl p-[3px] rounded-3xl shadow-2xl border border-white/30 hover:scale-105 transition-all duration-500">
-        <div className="bg-gradient-to-br from-slate-900/95 via-purple-900/95 to-slate-900/95 rounded-3xl p-8 md:p-10 w-full max-w-md text-center">
+      <div className="bg-gradient-to-br from-blue-600/30 via-cyan-500/30 to-sky-600/30 backdrop-blur-xl p-[3px] rounded-3xl shadow-2xl border border-white/30 hover:scale-105 transition-all duration-500">
+        <div className="bg-gradient-to-br from-slate-900/95 via-blue-900/95 to-slate-900/95 rounded-3xl p-8 md:p-10 w-full max-w-md text-center">
           {/* Título con gradiente */}
-          <h3 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 bg-clip-text text-transparent mb-4">
+          <h3 className="text-3xl md:text-4xl font-playfair font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-sky-300 bg-clip-text text-transparent mb-4">
             Confirmar Asistencia
           </h3>
 
           {/* Descripción */}
-          <p className="text-gray-300 mb-6 text-base md:text-lg leading-relaxed">
-            Haz clic en el enlace para confirmar tu asistencia al evento 🎉
+          <p className="text-gray-300 mb-6 text-lg md:text-xl leading-relaxed font-light">
+            Por favor, confirma tu asistencia al evento
           </p>
 
           {/* Botón premium con efecto shimmer */}
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe0UtKq4An4XmOQX2dKjRVFge0DRvjislDiqi7kjhHhF21RFQ/viewform?usp=dialog"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe0UtKq4An4XmOQX2dKjRVFge0DRvjislDiqi7kjhHhF21RFQ/viewform?usp=sharing&ouid=112482795277689222782"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative inline-block px-8 py-4 rounded-2xl font-bold text-lg md:text-xl text-white shadow-2xl transition-all duration-500 overflow-hidden group"
+            className="relative inline-block px-8 py-4 rounded-2xl font-montserrat font-medium text-xl md:text-2xl text-white shadow-2xl transition-all duration-500 overflow-hidden group uppercase tracking-wide"
             style={{
               background:
                 "linear-gradient(135deg, #3b82f6 0%, #0ea5e9 50%, #06b6d4 100%)",
@@ -40,28 +40,11 @@ export default function Asistencia() {
             ></span>
 
             {/* Texto del botón */}
-            <span className="relative z-10 flex items-center justify-center gap-2">
-              <span className="text-2xl">✨</span>
-              Confirmar Asistencia
-              <span className="text-2xl">✨</span>
-            </span>
+            <span className="relative z-10">Confirmar</span>
 
             {/* Efecto hover */}
             <span className="absolute inset-0 bg-white/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-2xl"></span>
           </a>
-
-          {/* Decoración inferior */}
-          <div className="flex justify-center gap-2 mt-6 text-2xl opacity-70">
-            <span className="animate-bounce" style={{ animationDelay: "0s" }}>
-              🎊
-            </span>
-            <span className="animate-bounce" style={{ animationDelay: "0.2s" }}>
-              🎈
-            </span>
-            <span className="animate-bounce" style={{ animationDelay: "0.4s" }}>
-              🎉
-            </span>
-          </div>
         </div>
       </div>
     </div>

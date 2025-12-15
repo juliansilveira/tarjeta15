@@ -33,9 +33,9 @@ function App() {
         </section>
       </main>
 
-      <section id="footer">
+      {/* <section id="footer">
         <Footer />
-      </section>
+      </section> */}
     </div>
   );
 }
